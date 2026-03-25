@@ -76,8 +76,8 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-
-#更新软件包版本
+UPDATE_PACKAGE "luci-theme-bootstrap" "openwrt/luci" "master" "pkg"
+UPDATE_PACKAGE "print-libs" "woniuzfb/openwrt-24-printing-packages" "main" "pkg" \"poppler libppd libcupsfilters cups-filters lcms2 ghostscript cups"
 UPDATE_VERSION() {
 	local PKG_NAME=$1
 	local PKG_MARK=${2:-false}
