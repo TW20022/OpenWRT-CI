@@ -77,12 +77,13 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "poppler" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
+UPDATE_PACKAGE "qpdf" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "libppd" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
+UPDATE_PACKAGE "cups" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "libcupsfilters" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "cups-filters" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "lcms2" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "ghostscript" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
-UPDATE_PACKAGE "cups" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
