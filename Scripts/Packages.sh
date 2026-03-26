@@ -83,6 +83,7 @@ UPDATE_PACKAGE "cups-filters" "woniuzfb/openwrt-24-printing-packages" "main" "pk
 UPDATE_PACKAGE "lcms2" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "ghostscript" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
 UPDATE_PACKAGE "cups" "woniuzfb/openwrt-24-printing-packages" "main" "pkg"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
