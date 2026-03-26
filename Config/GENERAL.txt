@@ -9,6 +9,15 @@ CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
+CONFIG_PACKAGE_libcairo=m
+CONFIG_PACKAGE_libppd=m
+CONFIG_PACKAGE_libcupsfilters=m
+CONFIG_PACKAGE_qpdf=m
+CONFIG_PACKAGE_poppler=m
+CONFIG_PACKAGE_cups-filters=m
+CONFIG_PACKAGE_lcms2=m
+CONFIG_PACKAGE_cups=m
+CONFIG_PACKAGE_ghostscript=m
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
