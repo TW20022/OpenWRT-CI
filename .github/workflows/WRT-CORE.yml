@@ -222,8 +222,11 @@ jobs:
             done
 
             find ./bin/targets/ -type f -exec mv -f {} ./upload/ \;
+
+            # 兼容收集 IPK 和 APK 独立包
             mkdir -p ./upload/packages
             find ./bin/packages/ -type f \( -name "*.ipk" -o -name "*.apk" \) -exec cp -f {} ./upload/packages/ \;
+
             make clean -j$(nproc)
           fi
 
