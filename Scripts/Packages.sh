@@ -81,6 +81,26 @@ UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "axonhub gecoosac sing-box luci-app-homeproxy luci-app-timewol luci-app-wolplus luci-app-wolultra"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+#printing
+UPDATE_PACKAGE "cups-filters" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "cups" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "foo2zjs" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "foomatic-filters" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "ghostscript-fonts-std" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "ghostscript-gnu-gs-fonts" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "ghostscript" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "gutenprint" "hd85558/openwrt-24-printing-packages" "main"
+#UPDATE_PACKAGE "hplip" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "lcms2" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "libcairo" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "libcupsfilters" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "liberation-fonts" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "libjbigkit" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "libppd" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "poppler" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "qpdf" "hd85558/openwrt-24-printing-packages" "main"
+UPDATE_PACKAGE "splix" "hd85558/openwrt-24-printing-packages" "main"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
