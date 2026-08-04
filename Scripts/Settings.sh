@@ -62,3 +62,7 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 		echo "qualcommax set up nowifi successfully!"
 	fi
 fi
+# 1. 彻底从 feeds.conf.default 中删掉 video 这一行，不让它被下载
+sed -i '/video/d' feeds.conf.default
+# 2. 如果 video 目录已经被克隆下来了，直接暴力删除整个目录，彻底绝后患
+rm -rf feeds/video
